@@ -198,21 +198,27 @@ ADD_SUBDIRECTORY ( IlmImfExamples )
 ##########################
 # Tests
 ##########################
-ADD_SUBDIRECTORY ( IlmImfTest )
-ADD_SUBDIRECTORY ( IlmImfUtilTest )
-ADD_SUBDIRECTORY ( IlmImfFuzzTest )
+OPTION (BUILD_TESTS "Build tests" ON)
+IF (BUILD_TESTS)
+  ADD_SUBDIRECTORY ( IlmImfTest )
+  ADD_SUBDIRECTORY ( IlmImfUtilTest )
+  ADD_SUBDIRECTORY ( IlmImfFuzzTest )
+ENDIF ()
 
 
 ##########################
 # Binaries / Utilities
 ##########################
-ADD_SUBDIRECTORY ( exrheader )
-ADD_SUBDIRECTORY ( exrmaketiled )
-ADD_SUBDIRECTORY ( exrstdattr )
-ADD_SUBDIRECTORY ( exrmakepreview )
-ADD_SUBDIRECTORY ( exrenvmap )
-ADD_SUBDIRECTORY ( exrmultiview )
-ADD_SUBDIRECTORY ( exrmultipart )
+OPTION (BUILD_UTILS "Build command line utilities" ON)
+IF (BUILD_UTILS)
+  ADD_SUBDIRECTORY ( exrheader )
+  ADD_SUBDIRECTORY ( exrmaketiled )
+  ADD_SUBDIRECTORY ( exrstdattr )
+  ADD_SUBDIRECTORY ( exrmakepreview )
+  ADD_SUBDIRECTORY ( exrenvmap )
+  ADD_SUBDIRECTORY ( exrmultiview )
+  ADD_SUBDIRECTORY ( exrmultipart )
+ENDIF ()
 
 
 ##########################
