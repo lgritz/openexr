@@ -21,8 +21,8 @@
 #include "ImfWav.h"
 #include "ImfXdr.h"
 #include <Iex.h>
-#include <ImathBox.h>
-#include <ImathFun.h>
+#include <Imath/ImathBox.h>
+#include <Imath/ImathFun.h>
 #include <assert.h>
 #include <string.h>
 

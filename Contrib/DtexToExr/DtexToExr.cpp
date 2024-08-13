@@ -19,9 +19,9 @@
 #include <ImfPartType.h>
 #include <ImfStandardAttributes.h>
 
-#include <ImathBox.h>
-#include <ImathMatrix.h>
-#include <ImathVec.h>
+#include <Imath/ImathBox.h>
+#include <Imath/ImathMatrix.h>
+#include <Imath/ImathVec.h>
 
 #include <half.h>
 

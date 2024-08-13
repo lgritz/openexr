@@ -10,10 +10,10 @@
 #include <ImfPartType.h>
 #include <ImfPixelType.h>
 
-#include <ImathBox.h>
-#include <ImathFun.h>
-#include <ImathMatrix.h>
-#include <ImathVec.h>
+#include <Imath/ImathBox.h>
+#include <Imath/ImathFun.h>
+#include <Imath/ImathMatrix.h>
+#include <Imath/ImathVec.h>
 
 #include <assert.h>
 #include <stdio.h>

@@ -43,7 +43,7 @@
 #include "ImfNamespace.h"
 
 #include <Iex.h>
-#include <ImathFun.h>
+#include <Imath/ImathFun.h>
 
 #include <algorithm>
 #include <assert.h>

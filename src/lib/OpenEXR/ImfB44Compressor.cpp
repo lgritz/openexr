@@ -74,8 +74,8 @@
 #include "ImfMisc.h"
 #include "ImfNamespace.h"
 #include <Iex.h>
-#include <ImathBox.h>
-#include <ImathFun.h>
+#include <Imath/ImathBox.h>
+#include <Imath/ImathFun.h>
 #include <ImfIO.h>
 #include <ImfXdr.h>
 #include <algorithm>

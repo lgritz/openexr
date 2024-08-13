@@ -7,7 +7,7 @@
 #    undef NDEBUG
 #endif
 
-#include <ImathRandom.h>
+#include <Imath/ImathRandom.h>
 #include <ImfDwaCompressorSimd.h>
 #include <ImfSystemSpecific.h>
 #include <assert.h>

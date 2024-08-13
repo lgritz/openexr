@@ -16,8 +16,8 @@
 #include <ImfDeepScanLineOutputFile.h>
 #include <ImfPartType.h>
 
-#include <ImathBox.h>
-#include <ImathVec.h>
+#include <Imath/ImathBox.h>
+#include <Imath/ImathVec.h>
 
 namespace PxDeep
 {

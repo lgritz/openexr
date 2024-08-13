@@ -16,7 +16,7 @@
 
 #include "ImfCompression.h"
 
-#include <ImathBox.h>
+#include <Imath/ImathBox.h>
 
 #include <stdlib.h>
 
